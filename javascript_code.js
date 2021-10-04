@@ -1,4 +1,7 @@
-  <script>
+<!DOCTYPE html>
+<html>
+<head>  
+<script>
   alert('Hello toad!');
 </script> 
   <script>
@@ -12,3 +15,8 @@
         }
       });
     </script>
+</head>
+<body>
+</body>
+</html>
+   
