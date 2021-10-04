@@ -1,7 +1,4 @@
-
-<html>
-<head>  
-<script>
+ <script>
   alert('Hello toad!');
 </script> 
   <script>
@@ -15,8 +12,4 @@
         }
       });
     </script>
-</head>
-<body>
-</body>
-</html>
    
