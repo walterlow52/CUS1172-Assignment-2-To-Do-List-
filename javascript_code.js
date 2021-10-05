@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script>
 alert('Hello toad!');
-</script>
       
-<script>
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector("new").onsubmit = function() {
           const li = document.createElement('li');
@@ -29,9 +23,4 @@ document.addEventListener('click', function(event) {
  }
 });
       });
-</script>
-</head>
-<body>
-</body>
-</html>
 
