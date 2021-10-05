@@ -1,4 +1,4 @@
-
+function assignment_2() {
 <script>
   alert('Hello toad!');
 </script> 
@@ -28,3 +28,4 @@ document.addEventListener('click', function(event) {
  
       });
     </script>
+}
