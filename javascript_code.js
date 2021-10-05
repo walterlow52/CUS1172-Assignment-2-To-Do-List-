@@ -1,5 +1,4 @@
-<!DOCTYPE html>
- <html>
+<html>
  <head>
 <script>
   alert('Hello toad!');
