@@ -1,7 +1,5 @@
 function assignment_2() {
-<script>
-  alert('Hello toad!');
-</script> 
+alert('Hello toad!');
   <script>
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector("new").onsubmit = function() {
