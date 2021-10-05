@@ -1,6 +1,11 @@
-function assignment_2() {
+<!DOCTYPE html>
+<html>
+<head>
+<script>
 alert('Hello toad!');
+</script>
       
+<script>
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector("new").onsubmit = function() {
           const li = document.createElement('li');
@@ -23,6 +28,10 @@ document.addEventListener('click', function(event) {
   element.parentElement.remove();
  }
 });
- 
       });
-}
+</script>
+</head>
+<body>
+</body>
+</html>
+
