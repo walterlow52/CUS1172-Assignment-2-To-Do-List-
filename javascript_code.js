@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html>
  <head>
-<script type = "text/javascript">
+<script>
   alert('Hello toad!');
 </script> 
   <script>
