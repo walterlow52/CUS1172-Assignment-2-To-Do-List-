@@ -1,6 +1,5 @@
 function assignment_2() {
 alert('Hello toad!');
-  <script>
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector("new").onsubmit = function() {
           const li = document.createElement('li');
