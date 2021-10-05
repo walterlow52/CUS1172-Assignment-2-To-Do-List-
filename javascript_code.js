@@ -1,4 +1,3 @@
-<head>
 <script>
   alert('Hello toad!');
 </script> 
