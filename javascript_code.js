@@ -1,3 +1,4 @@
+
 <script>
   alert('Hello toad!');
 </script> 
@@ -27,7 +28,3 @@ document.addEventListener('click', function(event) {
  
       });
     </script>
-</head>
-<body>
-</body>
-</html>
