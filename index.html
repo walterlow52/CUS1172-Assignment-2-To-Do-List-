@@ -13,44 +13,41 @@
   </head>
   <body>
     <h1> Javascript Task List </h1>
+    
+    <ol id = "tasks"> </ol>
+    
     <div class="container">
     <div class="row">
     <div class="col-sm-4">
       <h1> Tasks </h1>
-    </div>
-    <div class="col-sm-4">
-      <h1> Task Priority </h1>
-      </div>
-    <div class="col-sm-4">
-      <h1> Task Status </h1>
-    </div>
-      </div>
-    </div>
-    
-    <p> </p>
-    <p> </p>
-    <p> </p>
-    
-    <ol id = "tasks"> </ol>
-    
     <form id = "new">
       <input id = "task" autocomplete = "off" autofocus placeholder = "Enter New Task" type = "text">
+    </div>
       
-    <form action = "/action_page.php">
+    <div class="col-sm-4">
+      <h1> Task Priority </h1>
+      <form action = "/action_page.php">
       <label for = "priority"> Enter the priority of the task: </label>
       <select name = "Task Priority" id = "priority">
         <option value = "Low"> Low </option>
         <option value = "Medium"> Medium </option>
         <option value = "High"> High </option>
       </select>
-     
-    <form id = "completed_task">
+      </div>
+      
+    <div class="col-sm-4">
+      <h1> Task Status </h1>
+       <form id = "completed_task">
       <input type = "radio" id = "pending" name = "Task-Pending" value = "Pending">
       <label for = "pending"> Pending </label>
       <input type = "radio" id = "completed" name = "Task-Completed" value = "Completed">
       <label for = "completed"> Mark as Completed </label>
-              
+    </div>
+      </div>
+      </div>
+     
       <input id = "submit" type = "submit">
+      
     </form>
   </body>
 </html>
