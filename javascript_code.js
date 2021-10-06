@@ -1,4 +1,4 @@
-alert('Hello toad!');
+alert('Welcome to the JavaScript Task List!');
       
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector("new").onsubmit = function() {
