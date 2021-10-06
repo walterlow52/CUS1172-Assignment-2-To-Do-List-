@@ -11,7 +11,6 @@ document.querySelector("#new").onsubmit = function() {
   `;
   li.innerHTML = new_task
   
-  //li.innerHTML = document.querySelector('#task').value;
   document.querySelector("#tasks").append(li);
   document.querySelector("#task").value = '';
   return false;
