@@ -21,7 +21,6 @@ document.addEventListener('click', function(event) {
   if (element.className === 'remove') {
     element.parentElement.remove();
   }
-  }
   
 /*document.querySelector("#complete_task").onchange = function() {
   document.querySelector('#completed').style.textDecoration = document.querySelector("#completedTask").value
