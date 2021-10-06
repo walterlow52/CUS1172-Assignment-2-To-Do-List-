@@ -8,9 +8,9 @@ document.querySelector("#new").onsubmit = function() {
   let new_task = `
   <span> ${task_point} </span>
   <input type = "radio" id = "pending" name = "status" value = "Pending">
-      <label for = "pending"> Pending </label>
+      <label for = "pending"> Pending </label> <br>
   <input type = "radio" id = "completed" name = "status" value = "Completed">
-      <label for = "completed"> Mark as Completed </label> 
+      <label for = "completed"> Mark as Completed </label> <br>
   `;
   li.innerHTML = new_task
   
