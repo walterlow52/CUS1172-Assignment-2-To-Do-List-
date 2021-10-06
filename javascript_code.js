@@ -22,7 +22,7 @@ document.addEventListener('click', function(event) {
   if (element.className === 'remove') {
     element.parentElement.remove();
   }
- if (element.className === 'completed' 
+ if (element.className === 'completed') { 
       element.style.property = "completed_task";
   }
   
