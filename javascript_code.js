@@ -8,7 +8,7 @@ document.querySelector("#new").onsubmit = function() {
   let new_task = `
   <span> ${task_point} </span>
   <input type = "radio" class = "remove"> Remove from List </button>
-  <button class = "completed"> Mark as Completed </button>
+  <input type = "radio" class = "completed"> Mark as Completed </button>
   `;
   li.innerHTML = new_task
   
