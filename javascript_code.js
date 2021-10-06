@@ -15,8 +15,13 @@ document.querySelector("#new").onsubmit = function() {
   document.querySelector("#tasks").append(li);
   document.querySelector("#task").value = '';
   return false;
-  
-  
 }
+  
+document.addEventListener('click', function(event) {
+  element = event.target;
+  if (element.className === 'remove') {
+    element.parentElement.remove();
+  }
+})
 });
 
