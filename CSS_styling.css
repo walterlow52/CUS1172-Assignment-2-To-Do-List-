@@ -12,4 +12,5 @@ body {
   text-decoration: line-through;
 }
 
+#sorting_priority {text-align: center;}
 #sorting_status {text-align: right;}
