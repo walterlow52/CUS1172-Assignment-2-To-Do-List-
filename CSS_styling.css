@@ -12,4 +12,4 @@ body {
   text-decoration: line-through;
 }
 
-.sorting_status {text-align: right;}
+#sorting_status {text-align: right;}
