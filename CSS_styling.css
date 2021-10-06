@@ -11,3 +11,5 @@ body {
   color: black;
   text-decoration: line-through;
 }
+
+.sorting_status {text-align: right;}
