@@ -29,6 +29,15 @@
     <ol id = "tasks"> </ol>
     <form id = "new">
       <input id = "task" autocomplete = "off" autofocus placeholder = "Enter New Task" type = "text">
+      
+    <form action = "/action_page.php">
+      <label for = "priority"> Enter the priority of the task: </label>
+      <select name = "Task Priority" id = "priority">
+        <option value = "Low"> Low </option>
+        <option value = "Medium"> Medium </option>
+        <option value = "High"> High </option>
+      </select>
+      
       <input id = "submit" type = "submit">
     </form>
   </body>
