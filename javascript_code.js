@@ -34,9 +34,9 @@ document.addEventListener('click', function(event) {
   if (element.className === 'remove') {
     element.parentElement.remove();
   }
- /* if (element.className === 'completed' {
-      element.parentElement.
-  }*/
+ if (element.className === 'completed' {
+      element.parentElement.style.property = "completed_task";
+  }
   
 })
 });
