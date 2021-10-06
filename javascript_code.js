@@ -4,7 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
 document.querySelector("#new").onsubmit = function() {
   const li = document.createElement('li');
-  li.innerHTML = document.querySelector('#task').value;
+  let task_point = document.querySelector('#task').value;
+  let new_task = `
+  <span> ${task_point} </span>
+  <button class = "remove"> Mark as completed </button>
+  `;
+  li.innerHTML = new_task
+  
+  //li.innerHTML = document.querySelector('#task').value;
   document.querySelector("#tasks").append(li);
   document.querySelector("#task").value = '';
   return false;
