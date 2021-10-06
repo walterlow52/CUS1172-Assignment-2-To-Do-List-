@@ -7,7 +7,7 @@ document.querySelector("#new").onsubmit = function() {
   let task_point = document.querySelector('#task').value;
   let new_task = `
   <span> ${task_point} </span>
-  <button class = "remove"> Remove from List </button>
+  <button class = "remove" type = "radio"> Remove from List </button>
   <button class = "completed"> Mark as Completed </button>
   `;
   li.innerHTML = new_task
