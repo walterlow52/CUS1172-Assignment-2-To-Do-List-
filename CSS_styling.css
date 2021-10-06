@@ -7,3 +7,7 @@ body {
   background-color: navy;
 }
 
+#completed_task {
+  color: black;
+  text-decoration: line-through;
+}
