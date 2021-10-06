@@ -23,11 +23,6 @@ document.addEventListener('click', function(event) {
     element.parentElement.remove();
   }
   
-/*document.querySelector("#complete_task").onchange = function() {
-  document.querySelector('#completed').style.textDecoration = document.querySelector("#completedTask").value
-}    
-)  */
-  
 })
 });
 
