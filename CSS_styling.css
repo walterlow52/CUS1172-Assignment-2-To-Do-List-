@@ -25,3 +25,7 @@ p {
 h3 {
   text-align: right;
 }
+
+ol {
+  background: navy;
+}
