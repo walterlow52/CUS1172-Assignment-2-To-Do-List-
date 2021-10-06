@@ -8,8 +8,7 @@ document.querySelector("#new").onsubmit = function() {
   let new_task = `
   <span> ${task_point} </span>
   <button class = "remove"> Remove from List </button>
-  <input type = "radio" id = "pending" name = "status" value = "Pending">
-  <input type = "radio" id = "completed" name = "status" value = "Completed">
+  <button class = "completed"> Mark as Complete </button>
   `;
   li.innerHTML = new_task
   
@@ -22,6 +21,7 @@ document.addEventListener('click', function(event) {
   element = event.target;
   if (element.className === 'remove') {
     element.parentElement.remove();
+  }
   }
   
 /*document.querySelector("#complete_task").onchange = function() {
