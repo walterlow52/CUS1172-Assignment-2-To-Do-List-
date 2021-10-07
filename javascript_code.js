@@ -39,7 +39,7 @@ function inc()  {
     document.querySelector("#priority").innerHTML = "LOW"   
   }
 }
-)
+
 
 
 
