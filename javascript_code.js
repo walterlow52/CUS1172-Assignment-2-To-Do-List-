@@ -18,12 +18,14 @@ document.querySelector("#new").onsubmit = function() {
 }
 
 document.addEventListener('click', function(event) {
+  const completed_task = document.createElement('complete')
+  complete.innerHTML = "PENDING";
   element = event.target;
   if (element.className === 'remove') {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-      element.style.property = "text-decoration: line-through;";
+    complete.innerHTML = "COMPLETED";
   }
   
 })
