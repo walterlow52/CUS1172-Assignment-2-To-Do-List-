@@ -8,7 +8,7 @@ document.querySelector("#new").onsubmit = function() {
   let new_task = `
   <span style = "color: white;"> ${task_point} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p> 
-  <span style = "text-align: right;"> <input type = "radio" class = "completed"> <p> Mark as Completed </p> </span>
+  <span style = "text-align: right;"> <input type = "radio" class = "completed"> Mark as Completed </span>
   `;
   li.innerHTML = new_task
   
@@ -23,7 +23,7 @@ document.addEventListener('click', function(event) {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-    
+    document.getElementById("comppleted").innerHTML = "COMPLETED";
   }
   
 })
