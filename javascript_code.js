@@ -20,7 +20,7 @@ document.querySelector("#new").onsubmit = function() {
 document.addEventListener('click', function(event) {
   const complete = document.createElement('complete');
   let completedTask = document.querySelector('#completed').value;
-  complete.innerHTML = "PENDING";
+  complete.innerHTML = 'PENDING';
   document.querySelector("#completed").value = '';
   return false;
   
@@ -29,7 +29,7 @@ document.addEventListener('click', function(event) {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-    complete.innerHTML = "COMPLETED";
+    complete.innerHTML = 'COMPLETED';
   }
   
 })
