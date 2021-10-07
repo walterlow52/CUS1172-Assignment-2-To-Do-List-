@@ -23,7 +23,7 @@ document.addEventListener('click', function(event) {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-    document.getElementById("completed").style.text-align = "right";
+   element.parentElement.
   }
   
 })
