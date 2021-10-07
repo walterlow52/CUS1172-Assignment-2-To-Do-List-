@@ -22,8 +22,8 @@ document.addEventListener('click', function(event) {
   if (element.className === 'remove') {
     element.parentElement.remove();
   }
- else if (element.className === 'completed') { 
-   document.getElementById("completed").style.text-decoration = "line-through";
+ if (element.className === 'completed') { 
+   li.innerHTML.style.text-decoration = "line-through";
   }
   
 })
