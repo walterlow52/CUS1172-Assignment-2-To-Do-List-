@@ -23,7 +23,7 @@ document.addEventListener('click', function(event) {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-    document.getElementById("comppleted").innerHTML = "COMPLETED";
+    document.getElementById("completed").innerHTML = "COMPLETED";
   }
   
 })
