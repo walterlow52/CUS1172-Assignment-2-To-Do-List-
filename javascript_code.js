@@ -18,8 +18,12 @@ document.querySelector("#new").onsubmit = function() {
 }
 
 document.addEventListener('click', function(event) {
-  const completed_task = document.createElement('complete')
+  const completed_task = document.createElement('complete');
+  let completedTask = document.querySelector('#completed').value;
   complete.innerHTML = "PENDING";
+  document.querySelector("#completed").value = '';
+  return false;
+  
   element = event.target;
   if (element.className === 'remove') {
     element.parentElement.remove();
