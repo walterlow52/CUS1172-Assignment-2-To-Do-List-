@@ -22,7 +22,7 @@ document.addEventListener('click', function(event) {
   if (element.className === 'remove') {
     element.parentElement.remove();
   }
- if (element.className === 'completed') { 
+ else if (element.className === 'completed') { 
    document.getElementById("completed").style.text-decoration = "line-through";
   }
   
