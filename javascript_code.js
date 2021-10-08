@@ -23,7 +23,7 @@ document.addEventListener('click', function(event) {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-   new_task.style.textDecoration = "line-through";
+   document.getElementById("tasks").style.textDecoration = "line-through";
   }
   
 })
