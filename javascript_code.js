@@ -24,7 +24,7 @@ document.querySelector("#new").onsubmit = function task_list() {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-   document.querySelector('task').value.style.textDecoration = "line-through";
+   document.getElementById("task").style.textDecoration = "line-through";
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
   
