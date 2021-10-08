@@ -4,13 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
   
 document.querySelector("#new").onsubmit = function() {
   const li = document.createElement('li');
-  document.querySelector("#status").innerHTML = "COMPLETED";
   let task_point = document.querySelector('#task').value;
   let new_task = `
   <span style = "color: white;"> ${task_point} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
-  <h3 id = "status"> PENDING </h3> <br>
+  <h3 id = "#status"> PENDING </h3> <br>
   `;
   li.innerHTML = new_task
   
@@ -26,6 +25,7 @@ document.addEventListener('click', function(event) {
   }
  if (element.className === 'completed') { 
    document.getElementById("tasks").style.textDecoration = "line-through";
+   document.querySelector("status").innerHTML = "COMPLETED";
   }
   
 })
