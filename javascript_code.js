@@ -24,6 +24,7 @@ document.addEventListener('click', function(event) {
   }
  if (element.className === 'completed') { 
    document.getElementById("tasks").style.textDecoration = "line-through";
+   document.write("COMPLETED");
   }
   
 })
