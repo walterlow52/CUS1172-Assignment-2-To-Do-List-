@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
 document.querySelector("#new").onsubmit = function() {
   const li = document.createElement('li');
-  document.querySelector("#status").innerHTML = 'PENDING';
   let task_point = document.querySelector('#task').value;
   let new_task = `
   <span style = "color: white;"> ${task_point} </span> <br>
