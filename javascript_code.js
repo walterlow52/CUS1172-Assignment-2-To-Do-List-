@@ -2,11 +2,13 @@ alert('Welcome to the JavaScript Task List!');
 
 document.addEventListener('DOMContentLoaded', function() {
   
-document.querySelector("#new").onsubmit = function() {
+document.querySelector("#new").onsubmit = function task_list() {
   const li = document.createElement('li');
+  const status = document.createElement('status');
   let task_point = document.querySelector('#task').value;
+  status.innerHTML = 'PENDING';
   let new_task = `
-  <h3 id = "#status"> PENDING </h3> <br>
+  <h3 id = "status"> PENDING </h3> <br>
   <span style = "color: white;"> ${task_point} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
