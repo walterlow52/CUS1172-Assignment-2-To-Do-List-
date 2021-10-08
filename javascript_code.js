@@ -9,7 +9,7 @@ document.querySelector("#new").onsubmit = function() {
   <span style = "color: white;"> ${task_point} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
-  <h3 id = {"#status"}> PENDING </h3> <br>
+  <h3 id = "#status"> PENDING </h3> <br>
   `;
   li.innerHTML = new_task
   
