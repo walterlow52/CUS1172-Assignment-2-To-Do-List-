@@ -13,7 +13,7 @@ document.querySelector("#new").onsubmit = function() {
   li.innerHTML = new_task
   
   document.querySelector("#tasks").append(li);
-  document.querySelector("task").value = '';
+  document.querySelector("#task").value = '';
   return false;
 }
 
