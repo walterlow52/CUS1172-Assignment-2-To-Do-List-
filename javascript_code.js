@@ -14,7 +14,7 @@ document.querySelector("#new").onsubmit = function task_list() {
   <option value = "Low"> Low </option>
   <option value = "Medium"> Medium </option>
   <option value = "High"> High </option>
-  </select>  <span style = "text-align: center;> ${task_priority} </span> <br>
+  </select>  <span style = "text-align: center;"> ${task_priority} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
   `;
