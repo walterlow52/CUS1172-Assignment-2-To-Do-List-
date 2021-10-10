@@ -30,9 +30,9 @@ document.querySelector("#new").onsubmit = function task_list() {
    document.getElementById("tasks").style.textDecoration = "line-through";
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
- if (element.className === 'Priority') {
+ /*if (element.className === 'Priority') {
    document.querySelector("#priority").value = 'task_priority';
- }
+ }*/
   
 });
 });
