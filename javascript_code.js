@@ -9,12 +9,6 @@ document.querySelector("#new").onsubmit = function task_list() {
   let new_task = `
   <h3 id = "status"> PENDING </h3> <br>
   <span style = "color: white;"> ${task_point} </span> <br>
-  <label for = "priority" class = "Priority"> <p> Enter the priority of the task: </p> </label> <br>
-  <select name = "Task Priority">
-  <option value = "Low"> Low </option>
-  <option value = "Medium"> Medium </option>
-  <option value = "High"> High </option>
-  </select>  <span style = "text-align: center;"> ${task_priority} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
   `;
