@@ -11,6 +11,7 @@ document.querySelector("#new").onsubmit = function task_list() {
   <span style = "color: white;"> ${task_point} </span> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
+  <span style = "text-align: center;> ${task_priority} </span> <br>
   `;
   
   li.innerHTML = new_task
@@ -32,6 +33,6 @@ document.querySelector("#new").onsubmit = function task_list() {
  if (element.className === 'Priority') {
    document.querySelector("#priority").value = 'task_priority';
  }
-    
-})
+  
+});
 });
