@@ -8,7 +8,7 @@ document.querySelector("#new").onsubmit = function task_list() {
   let task_priority = document.querySelector('#priority').value;
   let new_task = `
   <h3 id = "status"> PENDING </h3> <br>
-  <span style = "color: white;"> ${task_point} </span> <br>
+  <h5 id = "point"> ${task_point} </h5> <br>
   <h4> ${task_priority} </h4> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
@@ -27,7 +27,7 @@ document.querySelector("#new").onsubmit = function task_list() {
     element.parentElement.remove();
   }
  if (element.className === 'completed') { 
-   document.getElementById("tasks").style.textDecoration = "line-through";
+   document.querySelector("#point").style.textDecoration = "line-through";
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
   
