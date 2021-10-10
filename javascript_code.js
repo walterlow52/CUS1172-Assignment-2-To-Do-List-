@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.querySelector("#new").onsubmit = function task_list() {
   const li = document.createElement('li');
   let task_point = document.querySelector('#task').value;
-  let task_priority = document.querySelector('#Priority').value;
+  let task_priority = document.querySelector('#priority').value;
   let new_task = `
   <h3 id = "status"> PENDING </h3> <br>
   <span style = "color: white;"> ${task_point} </span> <br>
@@ -37,8 +37,8 @@ document.querySelector("#new").onsubmit = function task_list() {
    document.getElementById("tasks").style.textDecoration = "line-through";
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
- if (element.className === 'priority') {
-   document.querySelector("Priority").value = 'task_priority';
+ if (element.className === 'Priority') {
+   document.querySelector("priority").value = 'task_priority';
  }
     
 })
