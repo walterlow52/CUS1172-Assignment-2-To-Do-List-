@@ -9,7 +9,6 @@ document.querySelector("#new").onsubmit = function task_list() {
   let new_task = `
   <h3 id = "status"> PENDING </h3> <br>
   <span style = "color: white;"> ${task_point} </span> <br>
-  <span style = "text-align: center;> ${task_priority} </span>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
   `;
@@ -19,7 +18,7 @@ document.querySelector("#new").onsubmit = function task_list() {
   <option value = "Low"> Low </option>
   <option value = "Medium"> Medium </option>
   <option value = "High"> High </option>
-  </select> <br>
+  </select>  <span style = "text-align: center;> ${task_priority} </span> <br>
   `;
   li.innerHTML = new_task
   priority.innerHTML = priority_check;
@@ -39,7 +38,7 @@ document.querySelector("#new").onsubmit = function task_list() {
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
  if (element.className === 'priority') {
-   
+   document.querySelector("Priority").value = task_priority;
  }
     
 })
