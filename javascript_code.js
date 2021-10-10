@@ -38,7 +38,9 @@ document.querySelector("#new").onsubmit = function task_list() {
    document.getElementById("tasks").style.textDecoration = "line-through";
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
- if (element.className === 'priority') 
+ if (element.className === 'priority') {
+   
+ }
     
 })
 });
