@@ -38,7 +38,7 @@ document.querySelector("#new").onsubmit = function task_list() {
    document.querySelector("#status").innerHTML = "COMPLETED";
   }
  if (element.className === 'priority') {
-   document.querySelector("#Priority").value = task_priority;
+   document.querySelector("#Priority").value = 'task_priority';
  }
     
 })
