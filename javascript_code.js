@@ -9,7 +9,7 @@ document.querySelector("#new").onsubmit = function task_list() {
   let new_task = `
   <h3 id = "status"> PENDING </h3> <br>
   <span style = "color: white;"> ${task_point} </span> <br>
-  <span style = "color: white;"> <h4> ${task_priority} </h4> </span> <br>
+  <h4> ${task_priority} </h4> <br>
   <input type = "radio" class = "remove"> <p> Remove from List </p>
   <input type = "radio" class = "completed"> <p> Mark as Completed </p>
   `;
